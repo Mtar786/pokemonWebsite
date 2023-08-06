@@ -1,0 +1,110 @@
+/*
+Name: Muhammad Rahman
+Date: 7/25/23
+Ta: Allison Ho
+
+This is the sytles.css page for my Pokemon website. It syltes the page with
+a black and yellow theme.
+*/
+
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0;
+  color: yellow;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+}
+
+article {
+  text-align: center;
+}
+
+button {
+  background-color: #0b770f;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #e0c300;
+}
+
+label {
+  color: yellow;
+  font-size: 15px;
+  margin-top: 10px;
+  border: 2px solid;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+footer {
+  color: yellow;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+main {
+  margin: 35px;
+}
+
+section {
+  border-radius: 10px;
+  background-color: #ffc100;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.resize {
+  width: 100px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 5px;
+}
+
+#amibo:disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  background-color: #333;
+}
+
+#error {
+  color: red;
+}

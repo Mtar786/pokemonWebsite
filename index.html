@@ -1,0 +1,55 @@
+<!--
+Name: Muhammad Rahman
+Date: 7/25/23
+Ta: Allison Ho
+
+This is the index.html page for my pokemon website. It defiens the sections for
+both the pokemon and amiibo and includes buttons to help generate images.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Poke List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my Pokémon Website</h1>
+      <nav></nav>
+      <button id="random-poke">Click here to generate Pokémon</button>
+      <br>
+      <label for="pokemon">Enter valid Pokemon</label>
+      <input type="search" id="pokemon" placeholder="Enter Pokemon Name">
+      <button id="pokemon-btn">Submit</button>
+    </header>
+
+    <main>
+      <section id="random-pokemon-section">
+        <h2>Random Pokémon</h2>
+      </section>
+
+      <section id="pokemon-type">
+        <h2>Type and Abilities</h2>
+      </section>
+
+      <section id="moves">
+        <h2>Some Moves of Pokémon</h2>
+      </section>
+
+      <article>
+        <section id="amiibo-part">
+          <h2>Amiibo Section</h2>
+          <button id="amibo">Click here to generate one of 12 valid Pokémon Amiibo's</button>
+          <br>
+        </section>
+        <section id="amiibo-attribute"></section>
+      </article>
+    </main>
+
+    <footer>
+      &copy; 2023 Muhammad Rahman
+    </footer>
+  </body>
+</html>
