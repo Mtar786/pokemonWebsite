@@ -18,6 +18,9 @@ This repository contains the code and assets for a Pokémon website. The website
 ## Getting Started
 
 To access the Pokémon website, simply open the `index.html` file in your preferred web browser. The website does not require any server setup or installation.
+Here's how the website looks:
+
+![Website Screenshot](screenshot.png)
 
 ## Features
 
